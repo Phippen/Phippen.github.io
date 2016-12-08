@@ -187,7 +187,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="img/resume.pdf" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <a href="img/Resume.pdf" target="_blank" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="col-lg-12 text-center">
@@ -214,56 +214,6 @@
 	
     <!-- Contact Section -->
     <section id="contact">
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div> -->
-            <!-- <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -429,6 +379,7 @@
                             <h2>Reflection</h2>
                             <hr class="star-primary">
 								<div class="list-group">
+									<a href="#cModal" class="list-group-item portfolio-link" data-toggle="modal">Cumulative</a>
 									<a href="#goalModal" class="list-group-item portfolio-link" data-toggle="modal">My Goals</a>
 									<a href="#elect1Modal" class="list-group-item portfolio-link" data-toggle="modal">Intro to World Religion</a>
 									<a href="#elect2Modal" class="list-group-item portfolio-link" data-toggle="modal">Software Architecture</a>
@@ -457,7 +408,10 @@
                             <h2>Singing Web App</h2>
                             <hr class="star-primary">
 							<p>
-								This project was created for COM S 309 in my junior year. My team consisted of four members, my responsibilities 
+								This project was created for COM S 309 in my junior year. The project was to create a browser application that 
+								listened to the user's voice as they sang a song and awarded them points based on the expected pitch for the note 
+								that they were singing. The app also featured a keyboard mode where the user could use their computer keyboard to 
+								play musical notes along to a predetermined song. My team consisted of four members, my responsibilities 
 								during the project were establishing the connection between our MySQL database and our web application using a
 								Hibernate framework.
 							</p>
@@ -483,9 +437,41 @@
                             <h2>Voice-a-Sketch</h2>
                             <hr class="star-primary">
 							<p>
-								This project was developed during HackISU in the fall of 2015. Using Google Polymer as a template we created
-								an HTML canvas that continued to draw a line while following voice commands to change direction, stop, and start again.
-								My involvement in this project was focused on implementing the features of Google Polymer and researching voice recognition.
+								This project was developed during HackISU in the fall of 2015. Using Google Polymer as a template, we created
+								a browser application that displayed an HTML canvas that continued to draw a line while listening for voice commands 
+								to change direction, stop, and start again. My involvement in this project was focused on implementing the features of Google Polymer and researching voice recognition.
+							</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="cModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cumulative Reflection</h2>
+                            <hr class="star-primary">
+							<p>
+								My education at ISU started as a very individual experience. Classes were designed to test our logic and 
+								problem solving and then teach us how to solve those problems more effectively on our own. My first two years at
+								ISU prepared me to write efficient code and be a competent programmer on my own.
+							</p>
+							<p>
+								These last two years have been the other side of the coin, classes require multiple group projects and expect 
+								planning and analyzing to come into the projects. These classes have taught me to think critically about 
+								what a client wants, design and plan my approach before coding, and then communicate with others as a team to complete 
+								the project, rather than bash it out on my own.
 							</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -641,8 +627,9 @@
                             <hr class="star-primary">
 							<p>
 								A friend and I began this project to learn Andriod development and create something of our own. We successfully created a simple
-								Unity game to be played on an Andriod device. Because this was a learning experience, we shared responsibilities of learning the syntax and strategies that we would use 
-								in the project.
+								Unity game to be played on an Andriod device. By moving their finger on the bottom portion of the screen, the user would move their 
+								character around the above display with the goal of dodging objects that were dropping down onto them. Because this was a learning 
+								experience, we shared responsibilities of learning the syntax and strategies that we would use in the project.
 							</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
